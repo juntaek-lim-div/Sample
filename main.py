@@ -11,6 +11,7 @@ with open(RootDIR + '/test.txt', 'r') as f:
     
 #load dll
 dll = ctypes.cdll.LoadLibrary(RootDIR + '/opu.dll')
+print(dll.CameraModel())
 for i in range(10):
     a.add(i,i)
     b.sub(i,i)
