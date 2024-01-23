@@ -1,8 +1,8 @@
 ﻿[Setup]
 Version=8.0
 Edition=0
-GUID={1CA5B785-E090-48F9-A66E-DBDBB4A47FEE}
-AppName=New Product
+GUID={98ED7D8B-033C-4A48-982E-3EF9719449F4}
+AppName=Sample
 AppVersion=1.0
 AppDescription=
 CompanyName=Company
@@ -64,13 +64,13 @@ VisualCppVersion=5
 LinkVisualCpp=https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
 PackageType=0
 DataFileName=
-SetupFolder=C:\setup_output
-SetupFileName=IconChange
-SetupFile=C:\setup_output\IconChange.exe
-IconFile=C:\Users\DIV\Downloads\NT30DNS.ico
-SourceDir=C:\GIT\STD-USB-KEY\Dev\exeBuilder\build\20240122_165000\dist
+SetupFolder=C:\Users\DIV\Documents\Actual Installer\<AppName>
+SetupFileName=Sample
+SetupFile=C:\Users\DIV\Documents\Actual Installer\<AppName>\Sample.exe
+IconFile=Default
+SourceDir=
 InstallationPath=<SystemDrive>\DIT\<AppName>
-MainExecutable=<InstallDir>\temp.txt
+MainExecutable=
 ProgramGroup=<AppName>
 Uninstall=1
 ShowAddRemove=1
@@ -93,7 +93,7 @@ CheckUseDownloader=0
 CheckUpdateOnLaunch=0
 AutoCheckUpdate=0
 AutoSilentUpdate=0
-UpdateFrequency=2
+UpdateFrequency=0
 CheckUpdatePassParam=0
 CheckUpdaterParam=?id=<AppVersion>
 CheckSmartNotification=0
@@ -152,16 +152,16 @@ CustomComponentsFull=0
 CalcCompoSize=0
 CompoMustSelect=0
 RestartComputer=0
-LaunchFile=1
-LaunchFileName=<InstallDir>\temp.txt
-LaunchFileChecked=1
+LaunchFile=0
+LaunchFileName=
+LaunchFileChecked=0
 LaunchFileAdmin=0
 CustomAction=0
 CustomActionName=Visit Web Site
 CustomActionCommand=<WebSite>
 CustomActionChecked=0
 CustomActionAdmin=0
-TotalFiles=2
+TotalFiles=1
 
 [Languages]
 English=
@@ -173,8 +173,7 @@ LogoStretch=0
 LogoProportional=0
 
 [Files]
-0=C:\source\temp.txt?<InstallDir>\temp.txt?1?1
-1=C:\Program Files (x86)\Actual Installer\Uninstall.exe?<InstallDir>\Uninstall.exe?1?1
+0=C:\Program Files (x86)\Actual Installer\Uninstall.exe?<InstallDir>\Uninstall.exe?1?1
 
 [License]
 (Default)=
@@ -185,7 +184,5 @@ English=
 English=
 
 [Shortcuts]
-0=<ProgramGroup>*?<AppName>*?<InstallDir>\temp.txt*?*?*?<InstallDir>*?*?0*?Normal
-1=<Desktop>*?<AppName>*?<InstallDir>\temp.txt*?*?*?<InstallDir>*?*?0*?Normal
-2=<ProgramGroup>*?Uninstall <AppName>*?<InstallDir>\Uninstall.exe*?*?*?<InstallDir>*?*?0*?Normal
+0=<ProgramGroup>*?Uninstall <AppName>*?<InstallDir>\Uninstall.exe*?*?*?<InstallDir>*?*?0*?Normal
 
