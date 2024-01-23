@@ -1,8 +1,8 @@
 ﻿[Setup]
 Version=8.0
 Edition=0
-GUID={98ED7D8B-033C-4A48-982E-3EF9719449F4}
-AppName=Sample
+GUID={A408953C-DD2C-405C-A3C5-AC65343F75D4}
+AppName=New Product
 AppVersion=1.0
 AppDescription=
 CompanyName=Company
@@ -64,16 +64,16 @@ VisualCppVersion=5
 LinkVisualCpp=https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
 PackageType=0
 DataFileName=
-SetupFolder=C:\Users\DIV\Documents\Actual Installer\<AppName>
-SetupFileName=Sample
-SetupFile=C:\Users\DIV\Documents\Actual Installer\<AppName>\Sample.exe
+SetupFolder=C:\GIT\STD-USB-KEY\Dev\exeBuilder\build\20240123_194258
+SetupFileName=Setup
+SetupFile=C:\Users\DIV\Documents\Actual Installer\<AppName>\Setup.exe
 IconFile=Default
-SourceDir=
-InstallationPath=<SystemDrive>\DIT\<AppName>
+SourceDir=C:\GIT\STD-USB-KEY\Dev\exeBuilder\build\20240123_194258\dist\main
+InstallationPath=<ProgramFiles>\<AppName>
 MainExecutable=
 ProgramGroup=<AppName>
-Uninstall=1
-ShowAddRemove=1
+Uninstall=0
+ShowAddRemove=0
 SilentUninstall=0
 UninstallForce=0
 UninstallRestart=0
@@ -93,7 +93,7 @@ CheckUseDownloader=0
 CheckUpdateOnLaunch=0
 AutoCheckUpdate=0
 AutoSilentUpdate=0
-UpdateFrequency=0
+UpdateFrequency=2
 CheckUpdatePassParam=0
 CheckUpdaterParam=?id=<AppVersion>
 CheckSmartNotification=0
@@ -161,7 +161,7 @@ CustomActionName=Visit Web Site
 CustomActionCommand=<WebSite>
 CustomActionChecked=0
 CustomActionAdmin=0
-TotalFiles=1
+TotalFiles=0
 
 [Languages]
 English=
@@ -172,9 +172,6 @@ LogoTransparent=0
 LogoStretch=0
 LogoProportional=0
 
-[Files]
-0=C:\Program Files (x86)\Actual Installer\Uninstall.exe?<InstallDir>\Uninstall.exe?1?1
-
 [License]
 (Default)=
 English=
@@ -182,7 +179,4 @@ English=
 [Readme]
 (Default)=
 English=
-
-[Shortcuts]
-0=<ProgramGroup>*?Uninstall <AppName>*?<InstallDir>\Uninstall.exe*?*?*?<InstallDir>*?*?0*?Normal
 
