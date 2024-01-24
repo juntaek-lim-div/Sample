@@ -1,0 +1,5 @@
+serial=1111-1111-1111-1111
+version=1.0
+owner=temp
+usb_number=1
+key=376e8993ff408c4c9b529c1a5953e790
